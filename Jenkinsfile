@@ -1,5 +1,5 @@
 pipeline {
-agent { label 'jenkins-dind-slave' }
+agent { label 'Built-In Node' }
 
   stages {
     stage('SCM') {
