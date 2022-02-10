@@ -1,8 +1,6 @@
 pipeline {
   agent {
-    docker {
-      image 'vikas41982/netcorebuildagent:latest'
-    }
+    any
   }
 
   stages {
